@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
-  background: url("login-01.jpg");
+  background: url("img/login-01.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -137,7 +137,7 @@ a{
   height: 20px;
 
 }
-h2{
+h3 a{
   color: white;
   cursor: pointer;
   position: absolute;
