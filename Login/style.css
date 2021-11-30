@@ -132,6 +132,12 @@ a{
   font-size: smaller;
   text-decoration: none !important;
 }
+.register{
+  text-align: center;
+  color: white;
+  font-size: smaller;
+  text-decoration: none !important;
+}
 .image{
   position: absolute;
   top: 300px;
