@@ -1,0 +1,306 @@
+                /* Font */
+                
+                @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+                /* Semesta */
+                
+                * {
+                    font-family: "Poppins";
+                    --black: #2F4036;
+                    --green: #4D9587;
+                    --green1: #79999B;
+                    --orange: #FF9062;
+                    color: var(--black);
+                }
+                
+                body {
+                    display: block;
+                }
+                
+                .container {
+                    width: 100%;
+                    height: 3011px;
+                }
+                
+                a {
+                    text-decoration: none;
+                    color: var(--black);
+                    font-family: "Roboto";
+                    font-size: 2.3vmin;
+                    font-weight: normal;
+                }
+                /* navbar */
+                
+                .navbar {
+                    position: fixed;
+                    top: 0%;
+                    background-color: white;
+                    height: 4.5em;
+                    width: 100%;
+                    z-index: 5;
+                    display: flex;
+                }
+                
+                .navbar .linklist {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                
+                .navbar .logo h3 {
+                    color: var(--black);
+                    font-weight: 1000;
+                    font-size: 36px;
+                }
+                
+                .navbar .logo h3 span {
+                    color: var(--green);
+                }
+                
+                .navbar .hamburger-menu {
+                    width: 40px;
+                    height: 30px;
+                    display: none;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    cursor: pointer;
+                }
+                
+                .navbar .hamburger-menu span {
+                    display: block;
+                    width: 40px;
+                    background-color: var(--black);
+                    height: 6px;
+                    border-radius: 16px;
+                    transition: 0.5s;
+                }
+                
+                .navbar .linklist ul li {
+                    margin-left: 3vw;
+                }
+                
+                .dropdown-toggle {
+                    color: var(--orange);
+                }
+                
+                .login-button {
+                    font-size: 1em;
+                }
+                
+                ul li .material-icons {
+                    font-size: 1.3em;
+                }
+                
+                .navbar form input {
+                    height: 2.5em;
+                    border-radius: 100px 100px;
+                }
+                /* page1 */
+                
+                .container {
+                    right: 0%;
+                    left: 0%;
+                    width: 100%;
+                    height: 3111px;
+                    background-color: #4D9587;
+                    z-index: 1;
+                }
+                
+                .page1 {
+                    width: 100%;
+                    height: 1037px;
+                    z-index: 2;
+                }
+                
+                .page1 img {
+                    top: 50px;
+                    position: absolute;
+                    right: 0%;
+                    z-index: -1;
+                }
+                
+                .page1 .hometitle {
+                    left: 7%;
+                    top: 600px;
+                }
+                
+                .page1 h1 {
+                    font-size: 96px;
+                    font-weight: bolder;
+                }
+                
+                .page1 p {
+                    font-size: 1.5em;
+                    color: var(--green1);
+                }
+                
+                .page1 .hometitle .btn {
+                    font-size: 1.5em;
+                }
+                
+                .page1 h1 span {
+                    color: var(--green);
+                }
+                /* aboutpage */
+                
+                .about-page {
+                    width: 100%;
+                    height: 1037px;
+                    position: relative;
+                }
+                
+                .about-page .content .title h2 {
+                    text-align: center;
+                    font-weight: 900;
+                }
+                
+                .about-page .content .title h2 span {
+                    color: var(--green);
+                }
+                
+                .about-page .content {
+                    width: 100%;
+                    margin: auto;
+                }
+                
+                .about-page .content .isi {
+                    padding-top: 50px;
+                    margin-left: 60px;
+                }
+                /* page3 */
+                
+                .page3 {
+                    display: block;
+                    width: 95%;
+                    margin: auto;
+                }
+                
+                .page3 .title {
+                    text-align: center;
+                }
+                
+                .page3 .title h2 {
+                    font-size: 3em;
+                }
+                
+                .page3 .cardlist {
+                    grid-template-columns: 1fr 1fr 1fr 1fr;
+                    padding-top: 20px;
+                    padding-bottom: 100px;
+                }
+                
+                .card1,
+                .card2,
+                .card3,
+                .card4 {
+                    width: 95%;
+                    border-radius: 5%;
+                    overflow: hidden;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .page3 img {
+                    padding-top: 50px;
+                }
+                
+                .card1 h3,
+                .card2 h3,
+                .card3 h3,
+                .card4 h3 {
+                    margin: auto;
+                    width: 80%;
+                    text-align: center;
+                    font-size: 1.8em;
+                    font-family: "Roboto";
+                    font-weight: bold;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                }
+                
+                .card1 .card-exp,
+                .card2 .card-exp,
+                .card3 .card-exp,
+                .card4 .card-exp {
+                    width: 60%;
+                }
+                
+                .page3 p {
+                    text-align: center;
+                    font-family: "Roboto";
+                    padding-bottom: 80px;
+                }
+                
+                .footer {
+                    position: relative;
+                    bottom: 0%;
+                    height: 80px;
+                    display: flex;
+                    background-color: black;
+                    align-items: center;
+                    justify-content: center;
+                }
+                
+                .footer p {
+                    color: white;
+                    text-align: center;
+                }
+                
+                .footer p i {
+                    color: red;
+                }
+                /* .container .aboutpage {
+    width: 100%;
+    height: 1037px;
+} */
+                
+                @media (max-width:576px) {
+                    .page1 h1 {
+                        font-size: 3em;
+                    }
+                    .page1 .hometitle {
+                        top: 50%;
+                    }
+                    .page1 img {
+                        width: 900px;
+                    }
+                }
+                
+                @media (max-width: 992px) {
+                    .navbar .linklist {
+                        position: absolute;
+                        flex-direction: column-reverse;
+                        padding: 10px;
+                        opacity: 0%;
+                        border-radius: 10%;
+                        box-shadow: 15px 15px 15px gray;
+                        background-color: white;
+                        height: 400px;
+                        transition: 0.5s;
+                        width: 400px;
+                        right: -100%;
+                        top: 120%;
+                    }
+                    .navbar .hamburger-menu {
+                        display: flex;
+                    }
+                    .navbar .linklist .nav-link ul {
+                        height: 200px;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .about-page .content .about-content {
+                        flex-direction: column;
+                        width: 100%;
+                        text-align: justify;
+                    }
+                    .about-page .content .about-content p {
+                        width: 90%;
+                    }
+                    .page3 .cardlist {
+                        grid-template-columns: 1fr;
+                        justify-items: center;
+                    }
+                }
