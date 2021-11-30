@@ -137,7 +137,7 @@ a{
   height: 20px;
 
 }
-h3 a{
+.logo a{
   color: white;
   cursor: pointer;
   position: absolute;
