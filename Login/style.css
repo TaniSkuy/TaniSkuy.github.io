@@ -2,109 +2,123 @@
 * {
     --black: #323645;
 }
-body{
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', sans-serif;
-  background: url('img/login-01.jpg');
-  background-size: cover;
-  background-position: center;
-}
-.box{
-  width: 300px;
-  padding: 40px;
-  position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(-50%,-50%);
-  background: transparent;
-  text-align: center;
-}
-.box h1{
-  font-family :Poppins;
-  color: white;
-  text-transform: uppercase;
-  text-align: left;
-}
-.box input[name = "gmail"]{
-  border:0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px ;
-  padding: 10px 10px;
-  width: 300px;
-  outline: none;
-  color: white;
-  background-color: #323645;
-  border-radius: 24px;
-  cursor: pointer;
-}
-.box input[type = "text"],.box input[type = "password"]{
-  border:0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px ;
-  padding: 10px 10px;
-  height: 40px;
-  width: 270px;
-  outline: none;
-  color: white;
-  background-color: #323645;
-  border-radius: 13px;
-  transition: 0.25s;
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: url('login-01.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
-.box input[type = "text"]:focus,.box input[type = "password"]:focus{
-  width: 320px;
-  border-color: #3498db;
+.box {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    text-align: center;
 }
-.box input[name="logen"]{
-  border:0;
-  background: none;
-  display: block;
-  margin: 20px auto;
-  text-align: center;
-  border: 2px ;
-  padding: 10px 10px;
-  width: 250px;
-  outline: none;
-  color: white;
-  background-color: #FF9062;
-  border-radius: 24px;
-  transition: 0.25s;
-  cursor: pointer;
+
+.box h1 {
+    font-family: Poppins;
+    color: white;
+    text-transform: uppercase;
+    text-align: left;
 }
-.box input[type = "submit"]:hover{
-  background: #2ecc71;
+
+.box input[name="gmail"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px;
+    padding: 10px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    background-color: #323645;
+    border-radius: 24px;
+    cursor: pointer;
 }
-.box p{
-  text-align: justify;
-  color: white;
-  text-transform: uppercase;
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px;
+    padding: 10px 10px;
+    height: 40px;
+    width: 270px;
+    outline: none;
+    color: white;
+    background-color: #323645;
+    border-radius: 13px;
+    transition: 0.25s;
 }
-.box p[name="in"]{
-  text-align: center;
-  color: #c2bfbf;
-  text-transform: lowercase;
-  font-size: smaller;
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 320px;
+    border-color: #3498db;
 }
-.box p[name="pass"]{
-  text-align: justify;
-  color: white;
-  text-transform: uppercase;
+
+.box input[name="logen"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px;
+    padding: 10px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    background-color: #FF9062;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
 }
-.box p[name="rem"]{
-  text-align: justify;
-  color: white;
-  font-size: smaller;
+
+.box input[type="submit"]:hover {
+    background: #2ecc71;
 }
-.col-1 a{
-  width: 300px;
-  height: 35px;
+
+.box p {
+    text-align: justify;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box p[name="in"] {
+    text-align: center;
+    color: #c2bfbf;
+    text-transform: lowercase;
+    font-size: smaller;
+}
+
+.box p[name="pass"] {
+    text-align: justify;
+    color: white;
+    text-transform: uppercase;
+}
+
+.box p[name="rem"] {
+    text-align: justify;
+    color: white;
+    font-size: smaller;
+}
+
+.col-1 a {
+    width: 300px;
+    height: 35px;
     float: left;
     text-align: justify;
     /* padding: 2px 3px; */
@@ -112,9 +126,10 @@ body{
     text-decoration: none;
     color: white;
 }
-.col-1 label{
-  width: 300px;
-  height: 35px;
+
+.col-1 label {
+    width: 300px;
+    height: 35px;
     float: left;
     text-align: justify;
     /* padding: 2px 3px; */
@@ -123,50 +138,59 @@ body{
     color: white;
     cursor: pointer;
 }
-#check{
-  position: fixed;
-  display: block;
-  top: 62.8%;
-  left: 57%;
-}
-a{
-  text-align: center;
-  color: white;
-  font-size: smaller;
-  text-decoration: none !important;
-}
-.register{
-  text-align: center;
-  color: white;
-  font-size: smaller;
-  text-decoration: none !important;
-}
-.image{
-  position: absolute;
-  top: 22%;
-  left: 25%;
-  width: 20px;
-  height: 20px;
 
+#check {
+    position: fixed;
+    display: block;
+    top: 62%;
+    left: 57%;
 }
-.logo a{
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  color: white;
-  cursor: pointer;
-  position: absolute;
-  text-align: justify;
-  width: 191px;
-  height: 47px;
-  left: 74px;
-  top: 67px;
-  text-decoration: none;
+
+a {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    text-decoration: none !important;
 }
-.col-1 label:hover,.col-1 a:hover,a:hover,h2:hover{
-  color: #2C5B8A;
+
+.register {
+    text-align: center;
+    color: white;
+    font-size: smaller;
+    text-decoration: none !important;
 }
+
+.image {
+    position: absolute;
+    top: 22.5%;
+    left: 25%;
+    width: 20px;
+    height: 20px;
+}
+
+.logo a {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    text-align: justify;
+    width: 191px;
+    height: 47px;
+    left: 74px;
+    top: 67px;
+    text-decoration: none;
+}
+
+.col-1 label:hover,
+.col-1 a:hover,
+a:hover,
+h2:hover {
+    color: #2C5B8A;
+}
+
 .garis {
     display: flex;
     align-items: center;
