@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+/* Semesta */
+
+* {
+    font-family: "Poppins";
+    --black: #2F4036;
+    --green: #4D9587;
+    --green1: #79999B;
+    --orange: #FF9062;
+    color: var(--black);
+}
+
+body {
+    display: block;
+}
+
+.container {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black);
+    font-family: "Roboto";
+    font-size: 2.3vmin;
+    font-weight: normal;
+}
+
+
+/* navbar */
+
+.navbar {
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    height: 4.5em;
+    width: 100%;
+    z-index: 5;
+}
+
+.linklist,
+.logo,
+.login-shop {
+    height: inherit;
+    display: contents;
+}
+
+.navbar .logo h3 {
+    color: var(--black);
+    font-weight: 1000;
+    font-size: 36px;
+}
+
+.navbar .logo h3 span {
+    color: var(--green);
+}
+
+.navbar .linklist ul li {
+    margin-left: 3vw;
+}
+
+.dropdown-toggle {
+    color: var(--orange);
+}
+
+.login-button {
+    font-size: 1em;
+}
+
+ul li .material-icons {
+    font-size: 1.3em;
+}
+
+.navbar form input {
+    height: 2.5em;
+    border-radius: 100px 100px;
+}
+
+
+/* Content */
+
+.container {
+    padding: 10% 5%;
+}
+
+.container .trending {
+    margin: auto;
+    width: 100%;
+}
+
+.container .trending .content {
+    grid-template-columns: 1fr 2fr;
+    column-gap: 5%;
+}
+
+.container img {
+    border-radius: 4%;
+    width: 100%;
+}
+
+.container .another-content {
+    padding-top: 10%;
+    width: 100%;
+}
+
+.container .another-content .penanaman {
+    width: 100%;
+}
+
+.container .another-content .list-penanaman {
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 8%;
+}
+
+.container .perawatan,
+.pemanenan {
+    padding-top: 10%;
+}
+
+
+/* Decoration */
+
+.wave {
+    width: 50%;
+    bottom: 0%;
+    left: -21%;
+    transform: rotate(90deg);
+    position: absolute;
+}
