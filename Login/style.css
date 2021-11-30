@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
 body{
   margin: 0;
   padding: 0;
@@ -137,12 +138,19 @@ a{
   height: 20px;
 
 }
-h3 a{
+.logo a{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
   color: white;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   text-align: justify;
-  left: 50px;
+  width: 191px;
+  height: 47px;
+  left: 74px;
+  top: 67px;
   text-decoration: none;
 }
 .col-1 label:hover,.col-1 a:hover,a:hover,h2:hover{
