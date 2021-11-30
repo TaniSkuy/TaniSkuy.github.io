@@ -137,12 +137,13 @@ a{
   height: 20px;
 
 }
-.logo a{
+h3 a{
   color: white;
   cursor: pointer;
   position: absolute;
   text-align: justify;
   left: 50px;
+  text-decoration: none;
 }
 .col-1 label:hover,.col-1 a:hover,a:hover,h2:hover{
   color: #2C5B8A;
