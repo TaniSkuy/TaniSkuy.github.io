@@ -1,0 +1,141 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+
+
+*{
+    --white: #ffffff;
+    --dark : #323645;
+    --blue :#2D6296;
+    --orange: #FF9062;
+    
+}
+
+body{
+    background-image: url('img/Register.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.navbar-brand{
+    position: absolute;
+    color: var(--white);
+    font-weight: bold;
+    font-family: Poppins;
+    font-size: 36px;
+    left: 76px;
+    top : 52px;
+}
+.nav-link{ 
+    color: var(--white);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: normal;
+    
+}
+.home{
+    position: absolute;
+    left: 591px;
+    top: 52px;
+}
+.join{
+    position: absolute;
+    left : 805px;
+    top: 52px;
+}
+.Start{
+    color: var(--white);
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+}
+.jumbotron{
+    position: absolute;
+    top : 274px;
+    left : 76px
+}
+.create{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--white);
+    top: 310px;
+
+}
+.member{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: var(--white);
+    top: 386px;
+
+}
+.member .login{
+    color: var(--blue);
+}
+.button{
+    position: absolute;
+    border-radius: 30px;
+    background-color: var(--orange);
+    width: 460px;
+    height: 44px;
+
+    top: 400px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.name{
+    width: 220px;
+    height: 65px;
+    left: 76px;
+    top: 475px;
+    background-color: var(--dark);
+    border-color: var(--dark);
+    border-radius: 15px;
+}
+
+.label1{
+     color: rgba(255, 255, 255, 0.5);
+}
+.email{
+    
+    width: 460px;
+    height: 65px;
+    left: 76px;
+    top: 568px;
+    border-color: var(--dark);
+    background: var(--dark);
+    border-radius: 15px;
+}
+.pw{
+    width: 460px;
+    height: 65px;
+    left: 76px;
+    top: 661px;
+    border-color: var(--dark);
+    background: var(--dark);
+    border-radius: 15px;
+}
+.material-icons{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 170px;
+    
+ 
+
+}
+.icon2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 410px;
+}
