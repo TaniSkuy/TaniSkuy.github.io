@@ -140,7 +140,7 @@ a{
 h3 a{
   color: white;
   cursor: pointer;
-  position: absolute;
+  position: relative;
   text-align: justify;
   left: 50px;
   text-decoration: none;
