@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100&display=swap');
+* {
+    --black: #323645;
+}
 body{
   margin: 0;
   padding: 0;
@@ -163,4 +166,16 @@ a{
 }
 .col-1 label:hover,.col-1 a:hover,a:hover,h2:hover{
   color: #2C5B8A;
+}
+.garis {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.garis .garis-awal,
+.garis-akhir {
+    height: 1px;
+    width: 80px;
+    background-color: var(--black);
 }
