@@ -6,8 +6,8 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background: url('img/login-01.jpg');
+    font-family: 'Open Sans', sans-serif;
+    background: url('login-01.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -21,6 +21,25 @@ body {
     transform: translate(-50%, -50%);
     background: transparent;
     text-align: center;
+}
+
+.login-google {
+    background-color: #323645;
+    height: 40px;
+    width: 270px;
+}
+
+.login-google span {
+    padding-left: 10px;
+}
+
+.login-google:hover {
+    background-color: #2ecc71;
+}
+
+.login-google:hover,
+.login-google span {
+    color: white;
 }
 
 .box h1 {
@@ -44,6 +63,7 @@ body {
     background-color: #323645;
     border-radius: 24px;
     cursor: pointer;
+    justify-content: ;
 }
 
 .box input[type="text"],
@@ -74,15 +94,13 @@ body {
     border: 0;
     background: none;
     display: block;
-    margin: 20px auto;
+    margin: auto;
     text-align: center;
     border: 2px;
     padding: 10px 10px;
-    width: 250px;
-    outline: none;
+    width: 270px;
     color: white;
     background-color: #FF9062;
-    border-radius: 24px;
     transition: 0.25s;
     cursor: pointer;
 }
@@ -127,23 +145,22 @@ body {
     color: white;
 }
 
+.col-1 {
+    width: 450px;
+}
+
 .col-1 label {
-    width: 300px;
-    height: 35px;
-    float: left;
-    text-align: justify;
+    padding-left: 10px;
+    text-align: start;
     /* padding: 2px 3px; */
-    font-size: small;
+    font-size: 11px;
     text-decoration: none;
     color: white;
     cursor: pointer;
 }
 
-#check {
-    position: fixed;
-    display: block;
-    top: 62%;
-    left: 57%;
+.col-1 a {
+    font-size: 11px;
 }
 
 a {
@@ -161,9 +178,6 @@ a {
 }
 
 .image {
-    position: absolute;
-    top: 22.5%;
-    left: 25%;
     width: 20px;
     height: 20px;
 }
@@ -192,14 +206,31 @@ h2:hover {
 }
 
 .garis {
+    height: 40px;
+    padding-top: 20px;
+    width: 270px;
     display: flex;
-    align-items: center;
     justify-content: space-around;
 }
 
 .garis .garis-awal,
 .garis-akhir {
-    height: 1px;
-    width: 80px;
+    align-self: center;
+    height: 2px;
+    width: 60px;
     background-color: var(--black);
+}
+
+.create-acc {
+    margin-top: 10px;
+}
+
+.create-acc a {
+    font-size: 11px;
+}
+
+.create-acc p {
+    font-size: 11px;
+    text-transform: capitalize;
+    padding-right: 5px;
 }
