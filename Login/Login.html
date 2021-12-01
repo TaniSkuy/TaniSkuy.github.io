@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Login|TaniSkuy</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,11 +13,17 @@
 
 <body>
 
-    <input type="checkbox" id="check">
+
 
     <form class="box" action="index.html" method="post">
         <h1>Login</h1>
-        <input type="submit" name="gmail" value="Sign in with google">
+        <a href="">
+            <div class="login-google rounded-pill d-flex justify-content-center align-items-center">
+                <img src="img/Google.png" class="image">
+                <span>Sign in with google</span>
+            </div>
+        </a>
+
         <div class="garis">
             <div class="garis-awal"></div>
             <p name="in"> Or sign in with email </p>
@@ -28,16 +35,23 @@
         <input type="text" name="" placeholder="Email">
         <p name="pass">Password</p>
         <input type="password" name="" placeholder="Password">
-        <div class="col-1">
-            <label for="check">Remember me</label>
+        <div class="col-1 d-flex justify-content-between">
+            <div class="remember-me d-flex">
+                <input type="checkbox" id="check">
+                <label for="check">Remember me</label>
+            </div>
+            <a href="#" class="">Forgot your password?</a>
         </div>
         <br>
         <div class="col-1">
-            <a href="#">Forgot your password?</a>
+
         </div>
-        <input type="submit" name="logen" value="Login">
-        <a href="../Register/Register.html">Create account</a>
-        <img src="img/Google.png" class="image">
+        <input type="submit" name="logen" value="Login" class="btn rounded-pill">
+        <div class="create-acc d-flex">
+            <p>Not regitered yet?</p>
+            <a href="../Register/Register.html">Create account</a>
+        </div>
+
     </form>
 
 
